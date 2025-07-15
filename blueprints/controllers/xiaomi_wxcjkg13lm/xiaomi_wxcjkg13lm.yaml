@@ -65,194 +65,194 @@ blueprint:
           domain: input_text
     # inputs for custom actions
     action_button_1_short:
-      name: (Optional) Button 1 short press
+      name: Button 1 short press
       description: Action to run on short button 1 press.
       default: []
       selector:
         action:
     action_button_1_long:
-      name: (Optional) Button 1 long press
+      name: Button 1 long press
       description: Action to run on long button 1 press.
       default: []
       selector:
         action:
     action_button_1_release:
-      name: (Optional) Button 1 release
+      name: Button 1 release
       description: Action to run on button 1 release after long press.
       default: []
       selector:
         action:
     action_button_1_double:
-      name: (Optional) Button 1 double press
+      name: Button 1 double press
       description: Action to run on double button 1 press.
       default: []
       selector:
         action:
     action_button_1_triple:
-      name: (Optional) Button 1 triple press
+      name: Button 1 triple press
       description: Action to run on triple button 1 press.
       default: []
       selector:
         action:
     action_button_2_short:
-      name: (Optional) Button 2 short press
+      name: Button 2 short press
       description: Action to run on short button 2 press.
       default: []
       selector:
         action:
     action_button_2_long:
-      name: (Optional) Button 2 long press
+      name: Button 2 long press
       description: Action to run on long button 2 press.
       default: []
       selector:
         action:
     action_button_2_release:
-      name: (Optional) Button 2 release
+      name: Button 2 release
       description: Action to run on button 2 release after long press.
       default: []
       selector:
         action:
     action_button_2_double:
-      name: (Optional) Button 2 double press
+      name: Button 2 double press
       description: Action to run on double button 2 press.
       default: []
       selector:
         action:
     action_button_2_triple:
-      name: (Optional) Button 2 triple press
+      name: Button 2 triple press
       description: Action to run on triple button 2 press.
       default: []
       selector:
         action:
     action_button_3_short:
-      name: (Optional) Button 3 short press
+      name: Button 3 short press
       description: Action to run on short button 3 press.
       default: []
       selector:
         action:
     action_button_3_long:
-      name: (Optional) Button 3 long press
+      name: Button 3 long press
       description: Action to run on long button 3 press.
       default: []
       selector:
         action:
     action_button_3_release:
-      name: (Optional) Button 3 release
+      name: Button 3 release
       description: Action to run on button 3 release after long press.
       default: []
       selector:
         action:
     action_button_3_double:
-      name: (Optional) Button 3 double press
+      name: Button 3 double press
       description: Action to run on double button 3 press.
       default: []
       selector:
         action:
     action_button_3_triple:
-      name: (Optional) Button 3 triple press
+      name: Button 3 triple press
       description: Action to run on triple button 3 press.
       default: []
       selector:
         action:
     action_button_4_short:
-      name: (Optional) Button 4 short press
+      name: Button 4 short press
       description: Action to run on short button 4 press.
       default: []
       selector:
         action:
     action_button_4_long:
-      name: (Optional) Button 4 long press
+      name: Button 4 long press
       description: Action to run on long button 4 press.
       default: []
       selector:
         action:
     action_button_4_release:
-      name: (Optional) Button 4 release
+      name: Button 4 release
       description: Action to run on button 4 release after long press.
       default: []
       selector:
         action:
     action_button_4_double:
-      name: (Optional) Button 4 double press
+      name: Button 4 double press
       description: Action to run on double button 4 press.
       default: []
       selector:
         action:
     action_button_4_triple:
-      name: (Optional) Button 4 triple press
+      name: Button 4 triple press
       description: Action to run on triple button 4 press.
       default: []
       selector:
         action:
     action_button_5_short:
-      name: (Optional) Button 5 short press
+      name: Button 5 short press
       description: Action to run on short button 5 press.
       default: []
       selector:
         action:
     action_button_5_long:
-      name: (Optional) Button 5 long press
+      name: Button 5 long press
       description: Action to run on long button 5 press.
       default: []
       selector:
         action:
     action_button_5_release:
-      name: (Optional) Button 5 release
+      name: Button 5 release
       description: Action to run on button 5 release after long press.
       default: []
       selector:
         action:
     action_button_5_double:
-      name: (Optional) Button 5 double press
+      name: Button 5 double press
       description: Action to run on double button 5 press.
       default: []
       selector:
         action:
     action_button_5_triple:
-      name: (Optional) Button 5 triple press
+      name: Button 5 triple press
       description: Action to run on triple button 5 press.
       default: []
       selector:
         action:
     action_button_6_short:
-      name: (Optional) Button 6 short press
+      name: Button 6 short press
       description: Action to run on short button 6 press.
       default: []
       selector:
         action:
     action_button_6_long:
-      name: (Optional) Button 6 long press
+      name: Button 6 long press
       description: Action to run on long button 6 press.
       default: []
       selector:
         action:
     action_button_6_release:
-      name: (Optional) Button 6 release
+      name: Button 6 release
       description: Action to run on button 6 release after long press.
       default: []
       selector:
         action:
     action_button_6_double:
-      name: (Optional) Button 6 double press
+      name: Button 6 double press
       description: Action to run on double button 6 press.
       default: []
       selector:
         action:
     action_button_6_triple:
-      name: (Optional) Button 6 triple press
+      name: Button 6 triple press
       description: Action to run on triple button 6 press.
       default: []
       selector:
         action:
     # inputs for looping custom actions on long button press events until the corresponding release event is received
     button_1_long_loop:
-      name: (Optional) Button 1 long press - loop until release
+      name: Button 1 long press - loop until release
       description: Loop the button 1 action until the button is released.
       default: false
       selector:
         boolean:
     button_1_long_max_loop_repeats:
-      name: (Optional) Button 1 long press - Maximum loop repeats
+      name: Button 1 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -264,13 +264,13 @@ blueprint:
           mode: slider
           step: 1
     button_2_long_loop:
-      name: (Optional) Button 2 long press - loop until release
+      name: Button 2 long press - loop until release
       description: Loop the button 2 action until the button is released.
       default: false
       selector:
         boolean:
     button_2_long_max_loop_repeats:
-      name: (Optional) Button 2 long press - Maximum loop repeats
+      name: Button 2 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -282,13 +282,13 @@ blueprint:
           mode: slider
           step: 1
     button_3_long_loop:
-      name: (Optional) Button 3 long press - loop until release
+      name: Button 3 long press - loop until release
       description: Loop the button 3 action until the button is released.
       default: false
       selector:
         boolean:
     button_3_long_max_loop_repeats:
-      name: (Optional) Button 3 long press - Maximum loop repeats
+      name: Button 3 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -300,13 +300,13 @@ blueprint:
           mode: slider
           step: 1
     button_4_long_loop:
-      name: (Optional) Button 4 long press - loop until release
+      name: Button 4 long press - loop until release
       description: Loop the button 4 action until the button is released.
       default: false
       selector:
         boolean:
     button_4_long_max_loop_repeats:
-      name: (Optional) Button 4 long press - Maximum loop repeats
+      name: Button 4 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -318,13 +318,13 @@ blueprint:
           mode: slider
           step: 1
     button_5_long_loop:
-      name: (Optional) Button 5 long press - loop until release
+      name: Button 5 long press - loop until release
       description: Loop the button 5 action until the button is released.
       default: false
       selector:
         boolean:
     button_5_long_max_loop_repeats:
-      name: (Optional) Button 5 long press - Maximum loop repeats
+      name: Button 5 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -336,13 +336,13 @@ blueprint:
           mode: slider
           step: 1
     button_6_long_loop:
-      name: (Optional) Button 6 long press - loop until release
+      name: Button 6 long press - loop until release
       description: Loop the button 6 action until the button is released.
       default: false
       selector:
         boolean:
     button_6_long_max_loop_repeats:
-      name: (Optional) Button 6 long press - Maximum loop repeats
+      name: Button 6 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -355,7 +355,7 @@ blueprint:
           step: 1
     # helpers used to properly recognize the remote button events
     helper_debounce_delay:
-      name: (Optional) Helper - Debounce delay
+      name: Helper - Debounce delay
       description:
         Delay used for debouncing RAW controller events, by default set to 0. A value of 0 disables the debouncing feature. Increase this value if you notice custom actions or linked Hooks running multiple times when interacting with the device. When the controller needs to be debounced,
         usually a value of 100 is enough to remove all duplicate events.

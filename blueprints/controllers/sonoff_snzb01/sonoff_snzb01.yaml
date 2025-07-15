@@ -65,26 +65,26 @@ blueprint:
           domain: input_text
     # inputs for custom actions
     action_button_short:
-      name: (Optional) Button short press
+      name: Button short press
       description: Action to run on short button press.
       default: []
       selector:
         action:
     action_button_long:
-      name: (Optional) Button long press
+      name: Button long press
       description: Action to run on long button press.
       default: []
       selector:
         action:
     action_button_double:
-      name: (Optional) Button double press
+      name: Button double press
       description: Action to run on double button press.
       default: []
       selector:
         action:
     # helpers used to properly recognize the remote button events
     helper_debounce_delay:
-      name: (Optional) Helper - Debounce delay
+      name: Helper - Debounce delay
       description:
         Delay used for debouncing RAW controller events, by default set to 0. A value of 0 disables the debouncing feature. Increase this value if you notice custom actions or linked Hooks running multiple times when interacting with the device. When the controller needs to be debounced,
         usually a value of 100 is enough to remove all duplicate events.

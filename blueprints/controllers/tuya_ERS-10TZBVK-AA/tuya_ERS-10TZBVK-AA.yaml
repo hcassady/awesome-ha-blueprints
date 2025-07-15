@@ -58,43 +58,43 @@ blueprint:
           multiple: false
     # inputs for custom actions
     action_rotate_left:
-      name: (Optional) Rotate left
+      name: Rotate left
       description: Action to run on rotate left.
       default: []
       selector:
         action:
     action_rotate_right:
-      name: (Optional) Rotate right
+      name: Rotate right
       description: Action to run on rotate right.
       default: []
       selector:
         action:
     action_rotate_left_withpress:
-      name: (Optional) Rotate left_withpress
+      name: Rotate left_withpress
       description: Action to run on rotate left_withpress.
       default: []
       selector:
         action:
     action_rotate_right_withpress:
-      name: (Optional) Rotate right_withpress
+      name: Rotate right_withpress
       description: Action to run on rotate right_withpress.
       default: []
       selector:
         action:
     action_click_short:
-      name: (Optional) Remote short press
+      name: Remote short press
       description: Action to run on short remote press.
       default: []
       selector:
         action:
     action_click_double:
-      name: (Optional) Remote double press
+      name: Remote double press
       description: Action to run on double remote press.
       default: []
       selector:
         action:
     action_click_long:
-      name: (Optional) Remote long press
+      name: Remote long press
       description: Action to run on long remote press.
       default: []
       selector:
@@ -106,13 +106,13 @@ blueprint:
       collapsed: true
       input:
         click_long_loop:
-          name: (Optional) Click long - loop until stop
+          name: Click long - loop until stop
           description: Loop the click long action until the rotation is stopped.
           default: false
           selector:
             boolean:
         click_long_max_loop_repeats:
-          name: (Optional) Click long - Maximum loop repeats
+          name: Click long - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -124,13 +124,13 @@ blueprint:
               mode: slider
               step: 1
         rotate_left_loop:
-          name: (Optional) Rotate left - loop until stop
+          name: Rotate left - loop until stop
           description: Loop the rotate left action until the rotation is stopped.
           default: false
           selector:
             boolean:
         rotate_left_max_loop_repeats:
-          name: (Optional) Rotate left - Maximum loop repeats
+          name: Rotate left - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -142,13 +142,13 @@ blueprint:
               mode: slider
               step: 1
         rotate_right_loop:
-          name: (Optional) Rotate right - loop until stop
+          name: Rotate right - loop until stop
           description: Loop the rotate right action until the rotation is stopped.
           default: false
           selector:
             boolean:
         rotate_right_max_loop_repeats:
-          name: (Optional) Rotate right - Maximum loop repeats
+          name: Rotate right - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -160,13 +160,13 @@ blueprint:
               mode: slider
               step: 1
         rotate_left_withpress_loop:
-          name: (Optional) Rotate left_withpress - loop until stop
+          name: Rotate left_withpress - loop until stop
           description: Loop the rotate left_withpress action until the rotation is stopped.
           default: false
           selector:
             boolean:
         rotate_left_withpress_max_loop_repeats:
-          name: (Optional) Rotate left_withpress - Maximum loop repeats
+          name: Rotate left_withpress - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -178,13 +178,13 @@ blueprint:
               mode: slider
               step: 1
         rotate_right_withpress_loop:
-          name: (Optional) Rotate right_withpress - loop until stop
+          name: Rotate right_withpress - loop until stop
           description: Loop the rotate right_withpress action until the rotation is stopped.
           default: false
           selector:
             boolean:
         rotate_right_withpress_max_loop_repeats:
-          name: (Optional) Rotate right_withpress - Maximum loop repeats
+          name: Rotate right_withpress - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -196,7 +196,7 @@ blueprint:
               mode: slider
               step: 1
         helper_long_press_delay:
-          name: (Optional) Helper - Long Press delay
+          name: Helper - Long Press delay
           description: Max delay between the pushing and releasing of a button long press event. Increase this value if you notice that the long press action is not triggered properly.
           default: 250
           selector:
@@ -214,13 +214,13 @@ blueprint:
       input:
         # helper used to properly adjust the remote button double press events
         click_double_press_exposed:
-          name: (Optional) Expose up button double press event
+          name: Expose up button double press event
           description: Choose whether or not to expose the virtual double press event for the up button. Turn this on if you are providing an action for the up button double press event.
           default: false
           selector:
             boolean:
         helper_double_press_delay:
-          name: (Optional) Helper - Double Press delay
+          name: Helper - Double Press delay
           description: Max delay between the first and the second button press for the double press event. Provide a value only if you are using a double press action. Increase this value if you notice that the double press action is not triggered properly.
           default: 250
           selector:

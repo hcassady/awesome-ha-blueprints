@@ -53,25 +53,25 @@ blueprint:
           multiple: false
     # inputs for custom actions
     action_button_short:
-      name: (Optional) Button short press
+      name: Button short press
       description: Action to run on short button press.
       default: []
       selector:
         action:
     action_button_long:
-      name: (Optional) Button long press
+      name: Button long press
       description: Action to run on long button press.
       default: []
       selector:
         action:
     action_button_release:
-      name: (Optional) Button release
+      name: Button release
       description: Action to run on button release after long press.
       default: []
       selector:
         action:
     action_button_double:
-      name: (Optional) Button double press
+      name: Button double press
       description: Action to run on double button press.
       default: []
       selector:
@@ -83,13 +83,13 @@ blueprint:
       collapsed: true
       input:
         button_long_loop:
-          name: (Optional) Button long press - loop until release
+          name: Button long press - loop until release
           description: Loop the button action until the button is released.
           default: false
           selector:
             boolean:
         button_long_max_loop_repeats:
-          name: (Optional) Button long press - Maximum loop repeats
+          name: Button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -101,7 +101,7 @@ blueprint:
               mode: slider
               step: 1.0
         helper_long_press_delay:
-          name: (Optional) Helper - Long Press delay
+          name: Helper - Long Press delay
           description: Max delay between the pushing and releasing of a button long press event. Increase this value if you notice that the long press action is not triggered properly.
           default: 250
           selector:

@@ -56,49 +56,49 @@ blueprint:
           multiple: false
     # inputs for custom actions
     action_button_dots1_short:
-      name: (Optional) Dots1 button short press
+      name: Dots1 button short press
       description: Action to run on short dots1 button press.
       default: []
       selector:
         action:
     action_button_dots1_long:
-      name: (Optional) Dots1 button long press
+      name: Dots1 button long press
       description: Action to run on long dots1 button press.
       default: []
       selector:
         action:
     action_button_dots1_release:
-      name: (Optional) Dots1 button release
+      name: Dots1 button release
       description: Action to run on dots1 button release after long press.
       default: []
       selector:
         action:
     action_button_dots1_double:
-      name: (Optional) Dots1 button double press
+      name: Dots1 button double press
       description: Action to run on double dots1 button press.
       default: []
       selector:
         action:
     action_button_dots2_short:
-      name: (Optional) Dots2 button short press
+      name: Dots2 button short press
       description: Action to run on short dots2 button press.
       default: []
       selector:
         action:
     action_button_dots2_long:
-      name: (Optional) Dots2 button long press
+      name: Dots2 button long press
       description: Action to run on long dots2 button press.
       default: []
       selector:
         action:
     action_button_dots2_release:
-      name: (Optional) Dots2 button release
+      name: Dots2 button release
       description: Action to run on dots2 button release after long press.
       default: []
       selector:
         action:
     action_button_dots2_double:
-      name: (Optional) Dots2 button double press
+      name: Dots2 button double press
       description: Action to run on double dots2 button press.
       default: []
       selector:
@@ -110,13 +110,13 @@ blueprint:
       collapsed: true
       input:
         button_dots1_long_loop:
-          name: (Optional) Dots1 button long press - loop until release
+          name: Dots1 button long press - loop until release
           description: Loop the dots1 button action until the button is released.
           default: false
           selector:
             boolean:
         button_dots1_long_max_loop_repeats:
-          name: (Optional) Dots1 button long press - Maximum loop repeats
+          name: Dots1 button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -128,13 +128,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_dots2_long_loop:
-          name: (Optional) Dots2 button long press - loop until release
+          name: Dots2 button long press - loop until release
           description: Loop the dots2 button action until the button is released.
           default: false
           selector:
             boolean:
         button_dots2_long_max_loop_repeats:
-          name: (Optional) Dots2 button long press - Maximum loop repeats
+          name: Dots2 button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -146,7 +146,7 @@ blueprint:
               mode: slider
               step: 1.0
         helper_long_press_delay:
-          name: (Optional) Helper - Long Press delay
+          name: Helper - Long Press delay
           description: Max delay between the pushing and releasing of a button long press event. Increase this value if you notice that the long press action is not triggered properly.
           default: 250
           selector:

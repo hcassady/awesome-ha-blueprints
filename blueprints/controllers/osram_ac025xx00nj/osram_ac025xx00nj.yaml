@@ -65,86 +65,86 @@ blueprint:
           domain: input_text
     # inputs for custom actions
     action_button_up_short:
-      name: (Optional) Up button short press
+      name: Up button short press
       description: Action to run on short up button press.
       default: []
       selector:
         action:
     action_button_up_long:
-      name: (Optional) Up button long press
+      name: Up button long press
       description: Action to run on long up button press.
       default: []
       selector:
         action:
     action_button_up_release:
-      name: (Optional) Up button release
+      name: Up button release
       description: Action to run on up button release after long press.
       default: []
       selector:
         action:
     action_button_up_double:
-      name: (Optional) (Virtual) Up button double press
+      name: (Virtual) Up button double press
       description: Action to run on double up button press.
       default: []
       selector:
         action:
     action_button_center_short:
-      name: (Optional) Center button short press
+      name: Center button short press
       description: Action to run on short center button press.
       default: []
       selector:
         action:
     action_button_center_long:
-      name: (Optional) Center button long press
+      name: Center button long press
       description: Action to run on long center button press.
       default: []
       selector:
         action:
     action_button_center_release:
-      name: (Optional) Center button release
+      name: Center button release
       description: Action to run on center button release after long press.
       default: []
       selector:
         action:
     action_button_center_double:
-      name: (Optional) (Virtual) Center button double press
+      name: (Virtual) Center button double press
       description: Action to run on double center button press.
       default: []
       selector:
         action:
     action_button_down_short:
-      name: (Optional) Down button short press
+      name: Down button short press
       description: Action to run on short down button press.
       default: []
       selector:
         action:
     action_button_down_long:
-      name: (Optional) Down button long press
+      name: Down button long press
       description: Action to run on long down button press.
       default: []
       selector:
         action:
     action_button_down_release:
-      name: (Optional) Down button release
+      name: Down button release
       description: Action to run on down button release after long press.
       default: []
       selector:
         action:
     action_button_down_double:
-      name: (Optional) Down button double press
+      name: Down button double press
       description: Action to run on double down button press.
       default: []
       selector:
         action:
     # inputs for looping custom actions on long button press events until the corresponding release event is received
     button_up_long_loop:
-      name: (Optional) Up button long press - loop until release
+      name: Up button long press - loop until release
       description: Loop the up button action until the button is released.
       default: false
       selector:
         boolean:
     button_up_long_max_loop_repeats:
-      name: (Optional) Up button long press - Maximum loop repeats
+      name: Up button long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -156,13 +156,13 @@ blueprint:
           mode: slider
           step: 1
     button_center_long_loop:
-      name: (Optional) Center button long press - loop until release
+      name: Center button long press - loop until release
       description: Loop the center button action until the button is released.
       default: false
       selector:
         boolean:
     button_center_long_max_loop_repeats:
-      name: (Optional) Center button long press - Maximum loop repeats
+      name: Center button long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -174,13 +174,13 @@ blueprint:
           mode: slider
           step: 1
     button_down_long_loop:
-      name: (Optional) Down button long press - loop until release
+      name: Down button long press - loop until release
       description: Loop the down button action until the button is released.
       default: false
       selector:
         boolean:
     button_down_long_max_loop_repeats:
-      name: (Optional) Down button long press - Maximum loop repeats
+      name: Down button long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -193,26 +193,26 @@ blueprint:
           step: 1
     # inputs for enabling double press events
     button_up_double_press:
-      name: (Optional) Expose up button double press event
+      name: Expose up button double press event
       description: Choose whether or not to expose the virtual double press event for the up button. Turn this on if you are providing an action for the up button double press event.
       default: false
       selector:
         boolean:
     button_center_double_press:
-      name: (Optional) Expose center button double press event
+      name: Expose center button double press event
       description: Choose whether or not to expose the virtual double press event for the center button. Turn this on if you are providing an action for the center button double press event.
       default: false
       selector:
         boolean:
     button_down_double_press:
-      name: (Optional) Expose down button double press event
+      name: Expose down button double press event
       description: Choose whether or not to expose the virtual double press event for the down button. Turn this on if you are providing an action for the down button double press event.
       default: false
       selector:
         boolean:
     # helpers used to properly recognize the remote button events
     helper_double_press_delay:
-      name: (Optional) Helper - Double Press delay
+      name: Helper - Double Press delay
       description: Max delay between the first and the second button press for the double press event. Provide a value only if you are using a double press action. Increase this value if you notice that the double press action is not triggered properly.
       default: 500
       selector:
@@ -223,7 +223,7 @@ blueprint:
           mode: box
           step: 10
     helper_debounce_delay:
-      name: (Optional) Helper - Debounce delay
+      name: Helper - Debounce delay
       description:
         Delay used for debouncing RAW controller events, by default set to 0. A value of 0 disables the debouncing feature. Increase this value if you notice custom actions or linked Hooks running multiple times when interacting with the device. When the controller needs to be debounced,
         usually a value of 100 is enough to remove all duplicate events.

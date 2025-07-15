@@ -60,91 +60,91 @@ blueprint:
           multiple: false
     # inputs for custom actions
     action_button_up_short:
-      name: (Optional) Up button short press
+      name: Up button short press
       description: Action to run on short up button press.
       default: []
       selector:
         action:
     action_button_up_long:
-      name: (Optional) Up button long press
+      name: Up button long press
       description: Action to run on long up button press.
       default: []
       selector:
         action:
     action_button_down_short:
-      name: (Optional) Down button short press
+      name: Down button short press
       description: Action to run on short down button press.
       default: []
       selector:
         action:
     action_button_down_long:
-      name: (Optional) Down button long press
+      name: Down button long press
       description: Action to run on long down button press.
       default: []
       selector:
         action:
     action_button_right_short:
-      name: (Optional) Right button short press
+      name: Right button short press
       description: Action to run on short right button press.
       default: []
       selector:
         action:
     action_button_left_short:
-      name: (Optional) Left button short press
+      name: Left button short press
       description: Action to run on short left button press.
       default: []
       selector:
         action:
     action_button_center_short:
-      name: (Optional) Center button short press
+      name: Center button short press
       description: Action to run on short center button press.
       default: []
       selector:
         action:
     action_button_dots1_short:
-      name: (Optional) Dots1 button short press
+      name: Dots1 button short press
       description: Action to run on short dots1 button press.
       default: []
       selector:
         action:
     action_button_dots1_long:
-      name: (Optional) Dots1 button long press
+      name: Dots1 button long press
       description: Action to run on long dots1 button press.
       default: []
       selector:
         action:
     action_button_dots1_release:
-      name: (Optional) Dots1 button release
+      name: Dots1 button release
       description: Action to run on dots1 button release after long press.
       default: []
       selector:
         action:
     action_button_dots1_double:
-      name: (Optional) Dots1 button double press
+      name: Dots1 button double press
       description: Action to run on double dots1 button press.
       default: []
       selector:
         action:
     action_button_dots2_short:
-      name: (Optional) Dots2 button short press
+      name: Dots2 button short press
       description: Action to run on short dots2 button press.
       default: []
       selector:
         action:
     action_button_dots2_long:
-      name: (Optional) Dots2 button long press
+      name: Dots2 button long press
       description: Action to run on long dots2 button press.
       default: []
       selector:
         action:
     action_button_dots2_release:
-      name: (Optional) Dots2 button release
+      name: Dots2 button release
       description: Action to run on dots2 button release after long press.
       default: []
       selector:
         action:
     action_button_dots2_double:
-      name: (Optional) Dots2 button double press
+      name: Dots2 button double press
       description: Action to run on double dots2 button press.
       default: []
       selector:
@@ -156,13 +156,13 @@ blueprint:
       collapsed: true
       input:
         button_dots1_longdouble_enabled:
-          name: (Optional) Dots1 button Long/Double press - enable/disable
+          name: Dots1 button Long/Double press - enable/disable
           description: Enable the Dots1 button “Long Press” and “Double Press” actions. Disable to remove delay from “Single Press” actions.
           default: true
           selector:
             boolean:
         button_dots2_longdouble_enabled:
-          name: (Optional) Dots2 button Long/Double press - enable/disable
+          name: Dots2 button Long/Double press - enable/disable
           description: Enable the Dots2 button “Long Press” and “Double Press” actions. Disable to remove delay from “Single Press” actions.
           default: true
           selector:
@@ -174,13 +174,13 @@ blueprint:
       collapsed: true
       input:
         button_up_long_loop:
-          name: (Optional) Up button long press - loop until release
+          name: Up button long press - loop until release
           description: Loop the up button action until the button is released.
           default: false
           selector:
             boolean:
         button_up_long_max_loop_repeats:
-          name: (Optional) Up button long press - Maximum loop repeats
+          name: Up button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -192,13 +192,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_down_long_loop:
-          name: (Optional) Down button long press - loop until release
+          name: Down button long press - loop until release
           description: Loop the down button action until the button is released.
           default: false
           selector:
             boolean:
         button_down_long_max_loop_repeats:
-          name: (Optional) Down button long press - Maximum loop repeats
+          name: Down button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -210,13 +210,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_right_long_loop:
-          name: (Optional) Right button long press - loop until release
+          name: Right button long press - loop until release
           description: Loop the right button action until the button is released.
           default: false
           selector:
             boolean:
         button_right_long_max_loop_repeats:
-          name: (Optional) Right button long press - Maximum loop repeats
+          name: Right button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -228,13 +228,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_left_long_loop:
-          name: (Optional) Left button long press - loop until release
+          name: Left button long press - loop until release
           description: Loop the left button action until the button is released.
           default: false
           selector:
             boolean:
         button_left_long_max_loop_repeats:
-          name: (Optional) Left button long press - Maximum loop repeats
+          name: Left button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -246,13 +246,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_center_long_loop:
-          name: (Optional) Center button long press - loop until release
+          name: Center button long press - loop until release
           description: Loop the center button action until the button is released.
           default: false
           selector:
             boolean:
         button_center_long_max_loop_repeats:
-          name: (Optional) Center button long press - Maximum loop repeats
+          name: Center button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -264,13 +264,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_dots1_long_loop:
-          name: (Optional) Dots1 button long press - loop until release
+          name: Dots1 button long press - loop until release
           description: Loop the dots1 button action until the button is released.
           default: false
           selector:
             boolean:
         button_dots1_long_max_loop_repeats:
-          name: (Optional) Dots1 button long press - Maximum loop repeats
+          name: Dots1 button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -282,13 +282,13 @@ blueprint:
               mode: slider
               step: 1.0
         button_dots2_long_loop:
-          name: (Optional) Dots2 button long press - loop until release
+          name: Dots2 button long press - loop until release
           description: Loop the dots2 button action until the button is released.
           default: false
           selector:
             boolean:
         button_dots2_long_max_loop_repeats:
-          name: (Optional) Dots2 button long press - Maximum loop repeats
+          name: Dots2 button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -300,7 +300,7 @@ blueprint:
               mode: slider
               step: 1.0
         helper_long_press_delay:
-          name: (Optional) Helper - Long Press delay
+          name: Helper - Long Press delay
           description: Max delay between the pushing and releasing of a button long press event. Increase this value if you notice that the long press action is not triggered properly.
           default: 250
           selector:

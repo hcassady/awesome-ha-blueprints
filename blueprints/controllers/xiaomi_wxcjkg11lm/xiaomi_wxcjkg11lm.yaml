@@ -65,74 +65,74 @@ blueprint:
           domain: input_text
     # inputs for custom actions
     action_button_1_short:
-      name: (Optional) Button 1 short press
+      name: Button 1 short press
       description: Action to run on short button 1 press.
       default: []
       selector:
         action:
     action_button_1_long:
-      name: (Optional) Button 1 long press
+      name: Button 1 long press
       description: Action to run on long button 1 press.
       default: []
       selector:
         action:
     action_button_1_release:
-      name: (Optional) Button 1 release
+      name: Button 1 release
       description: Action to run on button 1 release after long press.
       default: []
       selector:
         action:
     action_button_1_double:
-      name: (Optional) Button 1 double press
+      name: Button 1 double press
       description: Action to run on double button 1 press.
       default: []
       selector:
         action:
     action_button_1_triple:
-      name: (Optional) Button 1 triple press
+      name: Button 1 triple press
       description: Action to run on triple button 1 press.
       default: []
       selector:
         action:
     action_button_2_short:
-      name: (Optional) Button 2 short press
+      name: Button 2 short press
       description: Action to run on short button 2 press.
       default: []
       selector:
         action:
     action_button_2_long:
-      name: (Optional) Button 2 long press
+      name: Button 2 long press
       description: Action to run on long button 2 press.
       default: []
       selector:
         action:
     action_button_2_release:
-      name: (Optional) Button 2 release
+      name: Button 2 release
       description: Action to run on button 2 release after long press.
       default: []
       selector:
         action:
     action_button_2_double:
-      name: (Optional) Button 2 double press
+      name: Button 2 double press
       description: Action to run on double button 2 press.
       default: []
       selector:
         action:
     action_button_2_triple:
-      name: (Optional) Button 2 triple press
+      name: Button 2 triple press
       description: Action to run on triple button 2 press.
       default: []
       selector:
         action:
     # inputs for looping custom actions on long button press events until the corresponding release event is received
     button_1_long_loop:
-      name: (Optional) Button 1 long press - loop until release
+      name: Button 1 long press - loop until release
       description: Loop the button 1 action until the button is released.
       default: false
       selector:
         boolean:
     button_1_long_max_loop_repeats:
-      name: (Optional) Button 1 long press - Maximum loop repeats
+      name: Button 1 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -144,13 +144,13 @@ blueprint:
           mode: slider
           step: 1
     button_2_long_loop:
-      name: (Optional) Button 2 long press - loop until release
+      name: Button 2 long press - loop until release
       description: Loop the button 2 action until the button is released.
       default: false
       selector:
         boolean:
     button_2_long_max_loop_repeats:
-      name: (Optional) Button 2 long press - Maximum loop repeats
+      name: Button 2 long press - Maximum loop repeats
       description: >-
         Maximum number of repeats for the custom action, when looping is enabled.
         Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -163,7 +163,7 @@ blueprint:
           step: 1
     # helpers used to properly recognize the remote button events
     helper_debounce_delay:
-      name: (Optional) Helper - Debounce delay
+      name: Helper - Debounce delay
       description:
         Delay used for debouncing RAW controller events, by default set to 0. A value of 0 disables the debouncing feature. Increase this value if you notice custom actions or linked Hooks running multiple times when interacting with the device. When the controller needs to be debounced,
         usually a value of 100 is enough to remove all duplicate events.

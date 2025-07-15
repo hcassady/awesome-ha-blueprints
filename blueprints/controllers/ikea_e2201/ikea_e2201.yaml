@@ -54,49 +54,49 @@ blueprint:
           multiple: false
     # inputs for custom actions
     action_button_up_short:
-      name: (Optional) Up button short press
+      name: Up button short press
       description: Action to run on short up button press.
       default: []
       selector:
         action:
     action_button_up_long:
-      name: (Optional) Up button long press
+      name: Up button long press
       description: Action to run on long up button press.
       default: []
       selector:
         action:
     action_button_up_release:
-      name: (Optional) Up button release
+      name: Up button release
       description: Action to run on up button release after long press.
       default: []
       selector:
         action:
     action_button_up_double:
-      name: (Optional) (Virtual) Up button double press
+      name: (Virtual) Up button double press
       description: Action to run on double up button press.
       default: []
       selector:
         action:
     action_button_down_short:
-      name: (Optional) Down button short press
+      name: Down button short press
       description: Action to run on short down button press.
       default: []
       selector:
         action:
     action_button_down_long:
-      name: (Optional) Down button long press
+      name: Down button long press
       description: Action to run on long down button press.
       default: []
       selector:
         action:
     action_button_down_release:
-      name: (Optional) Down button release
+      name: Down button release
       description: Action to run on down button release after long press.
       default: []
       selector:
         action:
     action_button_down_double:
-      name: (Optional) (Virtual) Down button double press
+      name: (Virtual) Down button double press
       description: Action to run on double down button press.
       default: []
       selector:
@@ -108,7 +108,7 @@ blueprint:
       collapsed: true
       input:
         button_up_long_max_loop_repeats:
-          name: (Optional) Up button long press - Maximum loop repeats
+          name: Up button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -120,7 +120,7 @@ blueprint:
               mode: slider
               step: 1.0
         button_down_long_max_loop_repeats:
-          name: (Optional) Down button long press - Maximum loop repeats
+          name: Down button long press - Maximum loop repeats
           description: >-
             Maximum number of repeats for the custom action, when looping is enabled.
             Use it as a safety limit to prevent an endless loop in case the corresponding stop event is not received.
@@ -132,7 +132,7 @@ blueprint:
               mode: slider
               step: 1.0
         helper_long_press_delay:
-          name: (Optional) Helper - Long Press delay
+          name: Helper - Long Press delay
           description: Max delay between the pushing and releasing of a button long press event. Increase this value if you notice that the long press action is not triggered properly.
           default: 250
           selector:
@@ -149,20 +149,20 @@ blueprint:
       collapsed: true
       input:
         button_up_double_press_exposed:
-          name: (Optional) Expose up button double press event
+          name: Expose up button double press event
           description: Choose whether or not to expose the virtual double press event for the up button. Turn this on if you are providing an action for the up button double press event.
           default: false
           selector:
             boolean:
         button_down_double_press_exposed:
-          name: (Optional) Expose down button double press event
+          name: Expose down button double press event
           description: Choose whether or not to expose the virtual double press event for the down button. Turn this on if you are providing an action for the down button double press event.
           default: false
           selector:
             boolean:
         # helper used to properly adjust the remote button double press events
         helper_double_press_delay:
-          name: (Optional) Helper - Double Press delay
+          name: Helper - Double Press delay
           description: Max delay between the first and the second button press for the double press event. Provide a value only if you are using a double press action. Increase this value if you notice that the double press action is not triggered properly.
           default: 250
           selector:
